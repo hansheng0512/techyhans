@@ -12,7 +12,7 @@ export const JobItem = ({name, src, description}) => {
             <Col md={6}>
                 <Card
                     hoverable
-                    style={{width: '100%', padding: '0% 5%'}}
+                    style={{padding: '0% 5%'}}
                     cover={<img alt={name} src={img}/>}
                 >
                     <Meta title={description}/>

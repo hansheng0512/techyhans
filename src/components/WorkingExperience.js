@@ -16,12 +16,12 @@ export const WorkingExperience = () => {
     return(
         <>
             <div className='linear-background'>
-                <Row style={{padding: '8% 15%'}}>
-                    <h1 style={{color: 'white'}}>
-                        My working experiences tell me more about me
+                <Row style={{padding: '3% 15%'}}>
+                    <h1 className='introduction' style={{color: 'white'}}>
+                        My working experiences <br/> tell more about me
                     </h1>
                 </Row>
-                <Row>
+                <Row style={{padding: '3% 15%'}}>
                     {populateJobs}
                 </Row>
             </div>

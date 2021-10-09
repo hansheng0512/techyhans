@@ -4,6 +4,9 @@ import {Profile} from "../components/Profile";
 import {ProfileDescription} from "../components/ProfileDescription";
 import {Extra} from "../components/Extra";
 import {WorkingExperience} from "../components/WorkingExperience";
+import {Experience} from "../components/Experience"
+import {Footer} from "../components/Footer"
+import { FooterMenu } from '../components/FooterMenu';
 
 
 export const Homepage = () => {
@@ -14,6 +17,9 @@ export const Homepage = () => {
             <ProfileDescription></ProfileDescription>
             <Extra></Extra>
             <WorkingExperience></WorkingExperience>
+            <Experience></Experience>
+            <Footer></Footer>
+            <FooterMenu></FooterMenu>
         </Layout>
     </>
 }

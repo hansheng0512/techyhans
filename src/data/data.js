@@ -54,5 +54,67 @@ export const Data = {
             description: 'Fungo - Startup Project',
             src: 'fungo.jpg',
         },
-    ]
+    ],
+
+    skillLevel: [
+        {
+            skill: 'PROBLEM SOLVING',
+            score: 95,
+        },
+        {
+            skill: 'COMPUTER VISION/MACHINE LEARNING',
+            score: 85,
+        },
+        {
+            skill: 'WEB APPLICATION DEVELOPMENT (REACT JS/ ANGULAR)',
+            score: 90,
+        },
+        {
+            skill: 'MOBILE APPLICATION DEVELOPMENT (IONIC)',
+            score: 90,
+        },
+        {
+            skill: 'ARDUINO/NVIDIA DEVELOPER KIT',
+            score: 85,
+        },
+       
+    ],
+    footerMenu1: [
+        {
+            name: 'home',
+            href: '#home',
+        },
+        {
+            name: 'about',
+            href: '#about',
+        },
+        {
+            name: 'blog',
+            href: '#services',
+        },
+        {
+            name: 'myGallery',
+            href: '#myGallery',
+        }
+    ],
+    footerMenu2: [
+        {
+            name: 'github',
+            href: '#github',
+        },
+    ],
+    footerMenu3: [
+        {
+            name: 'email',
+            href: '#email',
+        },
+        {
+            name: 'whatapp',
+            href: '#whatapp',
+        },
+        {
+            name: 'address',
+            href: '#address',
+        },
+    ],
 }
